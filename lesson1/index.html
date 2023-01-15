@@ -5,13 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .wrap {
+        width: 500px;
+        background-color: aqua;
+        height: 300px;
+        color: white;
+        font-size: 40px;
+      }
+      .block {
+        background-color: rgb(44, 10, 10);
+        margin-bottom: 20px;
+        font-size: 2rem;
+      }
+      .card {
+        background-color: rgb(81, 81, 60);
+        font-size: 1em;
+        text-transform: lowercase;
+        animation: rb 2s infinite linear alternate-reverse;
+      }
+      @keyframes rb {
+        from {background-color: red;}
+        to {background-color: blue;}
+      }
+    </style>
   </head>
   <body>
-
-    <a href="">
-        
-    </a>
-
-
+    <div class="wrap">
+      <div class="block">rem</div>
+      <div  class="card">web brain academy </div>
+    </div>
+    <abbr title="Webbrain Academy">Wba</abbr>
   </body>
 </html>
+
+<!-- 
+px 
+% 
+vw vh
+font size
+rem html fs
+em  parent fs
+-->

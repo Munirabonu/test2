@@ -151,3 +151,64 @@
 // 7.Data list +input => 
 // datalist id == input list 
 
+
+
+// git download
+// github account
+
+// github new repo
+
+// git init
+// git add .
+// git commit -m "first commit"
+// git remote add origin https://github.com/Munirabonu/bunker2.git
+// git push -u origin master
+
+// push
+// git add . 
+// git commit -m"commit"
+// git push -u origin master
+
+
+// css
+// lesson 1
+//
+// 2.Css type 3: 
+//  Inline => atribute css tasir qilish eng katta 
+//  Internal =>  head teg orqali
+//  External => link orqali fayl 
+// qaysi biri pastda bolsa shu katta 
+// 3.Css selector 5 -> class =>  . , bir nechta qiymat qabul qilad
+// id => faqat bitta qiymat, #
+// tag => 
+// attrebute => [atribute] 
+// universal
+// >inline css > id > atribute = class > teg nomi >unversal 
+// 4.Box style : 
+// background =>  fon rangi
+// width, height, 
+// %      => orab turuvchiga olcham oladi
+// vh  vw => ekranga
+// px => ekran px lariga qarab oladi
+// 5.Text style : color,
+//  text-align:justify => 2chetga bir xil togri qiladi 
+//  font-family: qaysi turini belgilaydi,stili 
+//  font-style =>   italic
+// font-wieght =>   qalinlik
+// px,
+// 1 rem =>  html font-size 
+// 1 em  =>  parent font-size  
+
+// 6.Color: 
+//  rgb(red,green,blue) 0-255 000 qora
+//  rgba(red,green,blue,alpha) alpha 0-1
+//  hex,
+// 0-9,a-f
+// hsl.
+// text-transform  => katta kichik harf
+// text-decorition => chiziq boyicha ishlaydi 
+// line-height => qator uzunligi
+// letter-spacing => harf orasi
+// word-spacing => sozni orasi
+// text-shadow  => textlarga soya (x,y,z, color)
+// 7.Font Awesome Icon -->

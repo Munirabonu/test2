@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap {
+    background: rgb(121, 156, 196);
+    background:  url(./city.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block {
+    width: 350px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.26);
+}
