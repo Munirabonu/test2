@@ -2,20 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-   <link rel="stylesheet" href="./style.css">
+    <style>
+      .fl_c {        
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .fl {
+        display: flex;
+        gap: 20px;
+      }
+      .bg_yellow {
+        background-color: yellow;
+      }
+      .f1 {
+        flex: 1;
+      }
+      .container {
+        width: 80%;
+        height: 90vh;
+        margin: 0 auto;
+      }
+      .row2 {
+        flex: 2;
+      }
+      .col2 {
+        flex: 3;
+      }
+      .article {
+        flex: 3;
+      }
+    </style>
   </head>
   <body>
-    <div class="wrap">
-        <div class="block">
-          <h1>salom</h1>
+    <div class="container fl_c">
 
+      <div class="header bg_yellow f1">Header</div>
+      <div class="row2 fl">
+        <div class="nav bg_yellow f1">Nav</div>
+        <div class="col2 fl_c">
+          <div class="row3 fl f1">
+            <div class="article bg_yellow">Article</div>
+            <div class="ads bg_yellow f1">Ads</div>
+          </div>
+          <div class="footer bg_yellow f1">Footer</div>
         </div>
+      </div>
+
     </div>
-
-
   </body>
 </html>
-

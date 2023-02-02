@@ -212,3 +212,57 @@
 // word-spacing => sozni orasi
 // text-shadow  => textlarga soya (x,y,z, color)
 // 7.Font Awesome Icon -->
+
+
+
+
+// 2.Text model: text-decoration, text-transform, 
+// text-indent => abzast
+// , letter-spacing, word-spacing, text-shadow, white-space.
+
+// 3.Css Trick: display, inline, block, inline-block, 
+// visibility:hidden (joy qoladi) vs display: none.(joy yoqol)
+// 4.Float
+// 5.background image : 
+//  image =>url(manzil)
+//  repeat => takrorlash
+//  attachment => bg ni qotiradi
+//  position => bg rasmni aynan rasmni qaysi joyini korsatsin
+//  size => cover,contain,unser 
+//  cover => 100%
+//  unsver =>
+//  contain => chegarafa yetib borguncha katalashtiradi
+// 6.Liener gradient
+
+// 2.Box model:
+//  border => chegara border:color width style
+//  radius => burilish qismi 
+//  margin => tashqi masofa borderdan tashqaridagi masofa
+// marginda auto ishlashiga sabab block elementlar ozidan qolgan joyni margin beradi
+//  padding => ichki masofa (content bn border orasi)
+// box sizing border box => border , padding ni width yoki heightni ichidan hisoblaydi 
+// box-shadow  => box soya
+// outline  =>  inputni bosganda paydo boladigan chiziq
+// overflow => ortib qolgan contentni boshqaradi
+// auto scroll
+// scroll doimiy auto => kkli bolganda
+
+
+// #css5
+// 1.Flexbox -> Flex Container => orab turuvchi
+// Flex Items => ichki itemlar
+// 2.Flex Container -> display:flex, 
+// align-items: y oqi  
+// justify-content:x oqi 
+// space-between: 1 va oxirgri divlar yopishtiriladi qolgan joy teng bolinadi
+// space-around: teng joy
+// space-evenly: oradagi joy chekadagi joydan 2 marta kop boladi. 
+// ortada 2 tomon divlaring joyi boladi
+// flex-direction: yonalishni ozgartiradi. column-reverse
+// flex-wrap: sigmagan divlarni pastga tushuradi
+// 3.Flex Items -> order, 
+// flew-grow => bosh joylarni taqsimlash  
+// flew-shrink  =>qisqarish, 0 berisa qisqarmaydi
+// flex-basis  width 
+// flex: yuqoridagi 3tasi yigindisi
+// align-self 
